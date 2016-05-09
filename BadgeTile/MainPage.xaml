@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="BadgeTile.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BadgeTile"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF3372D3">
+        <Button Name="btnCreateBadge" Click="btnCreateBadge_Click" Margin="129,41,0,542">Create Badge</Button>
+    </Grid>
+</Page>
